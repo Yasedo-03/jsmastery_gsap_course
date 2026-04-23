@@ -1,0 +1,16 @@
+import gsap from "gsap";
+
+gsap.to('.box', {
+    opacity: 1,
+    rotation: 360,
+    background: '#ff1ff6',
+    borderRadius: '50%',
+    scale: 1.25,
+    duration: 2,
+    ease: 'power1.inOut',
+    yoyo: true,
+    repeat: -1,
+    // repeatDelay: 2
+    // paused: true,
+    // stagger: 1
+})
